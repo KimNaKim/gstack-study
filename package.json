@@ -1,0 +1,14 @@
+{
+  "name": "gstack-study",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.18.3",
+  "scripts": {
+    "dev:web": "pnpm --filter @gstack-study/web dev",
+    "dev:mobile": "pnpm --filter @gstack-study/mobile start",
+    "dev:server": "pnpm --filter @gstack-study/server start:dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format"
+  }
+}

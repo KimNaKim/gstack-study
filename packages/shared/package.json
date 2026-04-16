@@ -1,0 +1,12 @@
+{
+  "name": "@gstack-study/shared",
+  "private": true,
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "echo shared package has no build step yet",
+    "lint": "echo shared package lint not configured yet",
+    "format": "echo shared package format not configured yet"
+  }
+}

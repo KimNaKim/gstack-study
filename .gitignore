@@ -1,0 +1,15 @@
+node_modules
+.pnpm-store
+.turbo
+dist
+coverage
+.env
+.env.local
+.env.*.local
+
+apps/web/.next
+apps/mobile/.expo
+apps/mobile/dist
+apps/server/dist
+
+postgres-data
